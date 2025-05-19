@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <center>
+        <h1>Aula de Formulário</h1>
+        <h2>Formulário visita a TOVS</h2>
+        <form action="" method="post">
+
+            <label for="nomeCompleto">Nome completo:</label>
+            <input type="text" required id="nomeCompleto" name="nomeCompleto">
+            <br> <br>
+            <label for="cpf">CPF:</label>
+            <input type="text" required id="cpf" name="cpf">
+            <br> <br>
+            <label for="rg">RG:</label>
+            <input type="text" minlength="6" maxlength="27" required id="rg" name="rg">
+
+            <br><br><br>
+            <p>De qual estado você virá?</p>
+
+            <input type="radio" required name="estado" id="sp">
+            <label for="sp">São Paulo</label>
+
+            <input type="radio" required name="estado" id="mg">
+            <label for="mg">Minas Gerais</label>
+
+            <input type="radio" required name="estado" id="rj">
+            <label for="rj">Rio de Janeiro</label>
+            <br><br>
+
+            <p>Método de transporte</p>
+
+            <label for="onibus">Ônibus</label>
+            <input type="checkbox" name="onibus" id="onibus" value="Onibus">
+            <br>
+
+            <label for="metro">Metrô</label>
+            <input type="checkbox" name="metro" id="metro" value="Metro">
+            <br>
+
+            <label for="trem">Trem</label>
+            <input type="checkbox" name="trem" id="trem" value="Trem">
+            <br>
+
+            <label for="aviao">Avião</label>
+            <input type="checkbox" name="aviao" id="aviao" value="Aviao">
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </center>
+</body>
+
+</html>
