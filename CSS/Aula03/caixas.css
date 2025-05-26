@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 100px;
+}
+
+.quadrado-rosa {
+    background-color: rgb(255, 0, 225);
+}
+
+.quadrado-roxo {
+    background-color: rgb(170, 0, 255);
+}
+
+.quadrado-amarelo {
+    background-color: rgb(255, 230, 0); 
+}
+
+#amarelo{
+    border: 3px;
+    border-style: dotted;
+    border-color: rgb(0, 55, 255);
+    margin: 75px 25px;
+}
+
+.quadrado-azul {
+    background-color: blue;
+}
