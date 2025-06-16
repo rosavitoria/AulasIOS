@@ -1,0 +1,31 @@
+@charset "UTF-8",
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #6200ff;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 149)000;
+}
+
+.caixinha {
+    /* grid column e grid row recebem dois valores,sendo o primeiro o local de inicio
+    do elemento e o segundo após a barra sendo o local onde termina o elemento */
+
+    grid-column: 3 / 4;
+    /* organiza hoizontalmente */
+
+    grid-row: 3 / 4;
+    /* organiza verticalmente */
+}
